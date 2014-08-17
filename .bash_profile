@@ -4,6 +4,9 @@
 # "s ." will open the current directory in Sublime
 alias s='open -a "Sublime Text"'
 
+# Open specified files in Brackets-Editor
+alias b='open -a "Brackets"'
+
 # Color LS
 colorflag="-G"
 alias ls="command ls ${colorflag}"
@@ -35,7 +38,7 @@ alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
-#Meteor completion: stef-k/meteor_bash_completions
+# Meteor completion: stef-k/meteor_bash_completions
 if [ -f /home/myuser/meteor.bash ]; then
     . /home/myuser/meteor.bash
 fi
