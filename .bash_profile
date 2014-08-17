@@ -34,7 +34,7 @@ alias c='pygmentize -O style=monokai -f console256 -g'
 # Git
 # You must install Git first - ""
 alias gs='git status'
-alias ga='git add .'
+alias ga='git add '
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
