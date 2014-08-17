@@ -35,6 +35,10 @@ alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
+#Meteor completion: stef-k/meteor_bash_completions
+if [ -f /home/myuser/meteor.bash ]; then
+    . /home/myuser/meteor.bash
+fi
 
 ### Prompt Colors
 # Modified version of @gf3’s Sexy Bash Prompt
